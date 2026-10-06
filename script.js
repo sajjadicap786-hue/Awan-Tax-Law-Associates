@@ -1,5 +1,5 @@
 // Add confirmed business contact details here to activate direct enquiry buttons.
-const BUSINESS = { whatsapp: "", email: "" };
+const BUSINESS = { whatsapp: "923335232992", email: "" };
 const menu=document.querySelector('.menu'),nav=document.querySelector('nav');
 menu.addEventListener('click',()=>{const open=menu.getAttribute('aria-expanded')!=='true';menu.setAttribute('aria-expanded',String(open));nav.classList.toggle('open',open)});
 nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');menu.setAttribute('aria-expanded','false')}));
